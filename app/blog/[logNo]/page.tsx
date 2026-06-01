@@ -5,16 +5,16 @@ import { getAllPosts, getPostBySlug } from '@/lib/posts'
 
 export async function generateStaticParams() {
   const posts = getAllPosts()
-  return posts.map(post => ({ slug: post.slug }))
+  return posts.map(post => ({ logNo: post.logNo }))
 }
 
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ slug: string }>
+  params: Promise<{ logNo: string }>
 }): Promise<Metadata> {
-  const { slug } = await params
-  const post = await getPostBySlug(slug).catch(() => null)
+  const { logNo } = await params
+  const post = await getPostBySlug(logNo).catch(() => null)
   if (!post) return { title: 'Blog — J-MATH' }
   return { title: `${post.title} — J-MATH` }
 }
@@ -22,27 +22,42 @@ export async function generateMetadata({
 export default async function PostPage({
   params,
 }: {
-  params: Promise<{ slug: string }>
+  params: Promise<{ logNo: string }>
 }) {
-  const { slug } = await params
-  const post = await getPostBySlug(slug).catch(() => null)
+  const { logNo } = await params
+  const post = await getPostBySlug(logNo).catch(() => null)
   if (!post) notFound()
 
   return (
     <div className="page-wrap">
-      <div className="post-article-wrap">
-        <article className="post-article">
+      <div className="post-header">
+        <div className="post-header-inner">
           <Link href="/blog" className="post-back">
             <i className="fas fa-arrow-left"></i> Blog 목록
           </Link>
-          <h1>{post.title}</h1>
-          <div className="post-meta">{post.date}</div>
+          <h1 className="post-h1">{post.title}</h1>
+          <div className="post-meta-row">
+            <span className="post-meta-date">{post.date}</span>
+            {post.tags.length > 0 && (
+              <div className="post-tags">
+                {post.tags.map(tag => (
+                  <span key={tag} className="post-tag">#{tag}</span>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      <div className="post-body">
+        <div className="post-content-wrap">
           <div
             className="post-content"
             dangerouslySetInnerHTML={{ __html: post.contentHtml }}
           />
-        </article>
+        </div>
       </div>
+
       <footer className="footer-simple">
         <div className="footer-copy">© 2026 J-MATH. All rights reserved.</div>
       </footer>
