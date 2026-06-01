@@ -28,6 +28,9 @@ export default async function PostPage({
   const post = await getPostBySlug(logNo).catch(() => null)
   if (!post) notFound()
 
+  const allPosts = getAllPosts()
+  const otherPosts = allPosts.filter(p => p.logNo !== logNo).slice(0, 4)
+
   return (
     <div className="page-wrap">
       <div className="post-header">
@@ -57,6 +60,27 @@ export default async function PostPage({
           />
         </div>
       </div>
+
+      {otherPosts.length > 0 && (
+        <div className="post-more">
+          <div className="post-more-inner">
+            <div className="post-more-label">다른 글 보기</div>
+            <div className="post-more-grid">
+              {otherPosts.map(p => (
+                <Link key={p.logNo} href={`/blog/${p.logNo}`} className="post-more-card">
+                  <div className="post-more-card-date">{p.date}</div>
+                  <div className="post-more-card-title">{p.title}</div>
+                </Link>
+              ))}
+            </div>
+            <div className="post-more-back">
+              <Link href="/blog" className="post-more-back-btn">
+                <i className="fas fa-th-list"></i> 전체 글 목록으로
+              </Link>
+            </div>
+          </div>
+        </div>
+      )}
 
       <footer className="footer-simple">
         <div className="footer-copy">© 2026 J-MATH. All rights reserved.</div>

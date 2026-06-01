@@ -42,11 +42,14 @@ export default function BlogPage() {
       </div>
 
       <div className="blog-body">
-        <div className="blog-list">
+        <div className="blog-grid">
           {posts.map(post => (
             <Link key={post.logNo} href={`/blog/${post.logNo}`} className="blog-card">
               <div className="blog-card-date">{post.date}</div>
               <div className="blog-card-title">{post.title}</div>
+              {post.description && (
+                <div className="blog-card-desc">{post.description}</div>
+              )}
               {post.tags.length > 0 && (
                 <div className="blog-card-tags">
                   {post.tags.map(tag => (
