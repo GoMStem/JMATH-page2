@@ -30,7 +30,12 @@ export default function BlogPage() {
     )
   }
 
-  const allTags = Array.from(new Set(posts.flatMap(p => p.tags))).sort()
+  const tagOrder = ['약술형논술', '내신관리', '합격후기', '학원후기']
+  const existingTags = new Set(posts.flatMap(p => p.tags))
+  const allTags = [
+    ...tagOrder.filter(t => existingTags.has(t)),
+    ...Array.from(existingTags).filter(t => !tagOrder.includes(t)).sort(),
+  ]
 
   return (
     <div className="page-wrap">
