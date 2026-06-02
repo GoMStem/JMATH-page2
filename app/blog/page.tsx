@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
 import { getAllPosts } from '@/lib/posts'
+import BlogFilter from '@/components/BlogFilter'
 
 export const metadata: Metadata = {
   title: 'Blog — J-MATH',
@@ -30,6 +30,8 @@ export default function BlogPage() {
     )
   }
 
+  const allTags = Array.from(new Set(posts.flatMap(p => p.tags))).sort()
+
   return (
     <div className="page-wrap">
       <div className="blog-header">
@@ -42,24 +44,7 @@ export default function BlogPage() {
       </div>
 
       <div className="blog-body">
-        <div className="blog-grid">
-          {posts.map(post => (
-            <Link key={post.logNo} href={`/blog/${post.logNo}`} className="blog-card">
-              <div className="blog-card-date">{post.date}</div>
-              <div className="blog-card-title">{post.title}</div>
-              {post.description && (
-                <div className="blog-card-desc">{post.description}</div>
-              )}
-              {post.tags.length > 0 && (
-                <div className="blog-card-tags">
-                  {post.tags.map(tag => (
-                    <span key={tag} className="post-tag">#{tag}</span>
-                  ))}
-                </div>
-              )}
-            </Link>
-          ))}
-        </div>
+        <BlogFilter posts={posts} allTags={allTags} />
       </div>
 
       <footer className="footer-simple">
