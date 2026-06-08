@@ -5,20 +5,16 @@ export default function HomePage() {
       <section className="hero">
         <div className="hero-left">
           <div className="hero-eyebrow">
-            <i className="fas fa-award"></i>
-            전국 1등 과외 현정호
+            <i className="fas fa-exclamation-circle"></i>
+            수능.내신 망한 학생 필독
           </div>
-          <h1 className="hero-h1">J-MATH</h1>
-          <p className="hero-h2">수학 성적을 관리하는<br />프리미엄 전략 코칭</p>
-          <p className="hero-h2" style={{ fontSize: '22px', marginBottom: '28px' }}>
-            수학 <span style={{ color: 'var(--gold-light)' }}>1등급</span>을 만드는<br />
-            가장 체계적인 방법
-          </p>
-          <p className="hero-desc">
-            <strong>정확한 진단 · 맞춤 개념조합 · 실전 피드백</strong>
-          </p>
+          <h1 className="hero-h1">
+            이 등급으로<br />
+            <span className="hero-h1-point">진짜 합격?</span><br />
+            영상으로 보세요
+          </h1>
           <a href="#contact" className="btn-hero">
-            무료 학습 진단 신청 <i className="fas fa-arrow-right"></i>
+            내 성적으로 가능성 보기 <i className="fas fa-arrow-right"></i>
           </a>
 
           <div className="hero-badges">

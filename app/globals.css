@@ -98,9 +98,13 @@ ul { list-style:none; }
 .hero-eyebrow i { font-size:10px; }
 .hero-h1 {
   font-size:64px; font-weight:900;
+  color:#fff;
+  line-height:1.15; letter-spacing:-2px;
+  margin-bottom:32px;
+}
+.hero-h1-point {
   color:var(--gold-light);
-  line-height:1; letter-spacing:-3px;
-  margin-bottom:14px;
+  display:inline-block;
 }
 .hero-h2 {
   font-size:26px; font-weight:700;
@@ -1021,7 +1025,7 @@ ul { list-style:none; }
     align-items: flex-start;
     position: relative;
   }
-  .hero-h1 { font-size: 44px; }
+  .hero-h1 { font-size: 46px; letter-spacing: -1.5px; }
   .hero-right {
     display: block;
     position: absolute;
