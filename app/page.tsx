@@ -78,12 +78,6 @@ export default function HomePage() {
 
       {/* 약술형 논술 */}
       <section id="essay" className="sec-essay">
-        <div className="essay-intro reveal">
-          <div className="big-label">수시 전략</div>
-          <h2>약술형 논술,<br />지금 이 전형이 기회입니다</h2>
-          <p>수능 성적이 전부가 아닙니다. 약술형 논술은 철저한 준비로 상위권 대학 합격을 현실로 만드는 가장 현실적인 전략입니다.</p>
-        </div>
-
         <div className="essay-blocks">
 
           {/* 01 */}
