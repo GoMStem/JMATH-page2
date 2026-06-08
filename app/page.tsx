@@ -58,7 +58,7 @@ export default function HomePage() {
             <div className="hc-role">J-MATH 대표강사</div>
             <div className="hc-divider"></div>
             <ul className="hc-list">
-              <li className="hc-item">김과외 전체 과목 과외성사&nbsp;<strong>1위</strong>&nbsp;(2026.05 기준)</li>
+              <li className="hc-item">김과외 전체 과목 과외성사&nbsp;<strong>1위</strong><span className="hc-sub">(2026.05 기준)</span></li>
               <li className="hc-item">누적 수강생&nbsp;<strong>5,000명+</strong></li>
               <li className="hc-item">연세대학교(신촌) 공대&nbsp;<strong>학사, 석사</strong></li>
               <li className="hc-item">약술형 논술&nbsp;<strong>전문 강사</strong></li>
