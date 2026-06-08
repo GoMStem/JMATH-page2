@@ -319,6 +319,7 @@ ul { list-style:none; }
   display:grid; grid-template-columns:1fr 1.5fr;
   gap:0; border-top:1px solid var(--border); padding:64px 0; align-items:start;
 }
+.essay-block:first-child { border-top:none; }
 .essay-block:last-child { border-bottom:1px solid var(--border); }
 .essay-block.reverse { grid-template-columns:1.5fr 1fr; }
 .essay-block.reverse .eb-left { order:2; }
