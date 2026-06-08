@@ -1087,11 +1087,12 @@ ul { list-style:none; }
     align-items: flex-start;
     position: relative;
   }
-  .hero-h1 { font-size: 46px; letter-spacing: -1.5px; }
+  .hero-left { padding-right: 130px; }
+  .hero-h1 { font-size: 34px; letter-spacing: -1px; }
   .hero-right {
     display: block;
     position: absolute;
-    top: 100px;
+    top: 84px;
     right: 5%;
     width: 115px;
     height: auto;
@@ -1144,7 +1145,7 @@ ul { list-style:none; }
   .hero-case-divider { margin:20px 0 16px; }
   .hero-cases { max-width:100%; gap:8px; }
   .case-card { padding:14px 15px; gap:10px; }
-  .case-result { font-size:14px; }
+  .case-result { font-size:17px; }
   .case-play { width:58px; height:38px; }
   .case-play i { font-size:13px; }
   .case-video { flex:0 0 72px; }
