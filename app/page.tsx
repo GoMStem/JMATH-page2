@@ -17,6 +17,8 @@ export default function HomePage() {
             내 성적으로 가능성 보기 <i className="fas fa-arrow-right"></i>
           </a>
 
+          <div className="hero-case-divider"></div>
+
           <div className="hero-cases">
             <div className="case-card">
               <div className="case-left">
