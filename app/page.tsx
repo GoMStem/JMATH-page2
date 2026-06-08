@@ -6,7 +6,7 @@ export default function HomePage() {
         <div className="hero-left">
           <div className="hero-eyebrow">
             <i className="fas fa-exclamation-circle"></i>
-            수능.내신 망한 학생 필독
+            수능·내신 망한 학생 필독
           </div>
           <h1 className="hero-h1">
             이 등급으로<br />
