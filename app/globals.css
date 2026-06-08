@@ -1087,8 +1087,8 @@ ul { list-style:none; }
     align-items: flex-start;
     position: relative;
   }
-  .hero-left { padding-right: 130px; }
-  .hero-h1 { font-size: 34px; letter-spacing: -1px; }
+  .hero-h1 { font-size: 34px; letter-spacing: -1px; max-width: calc(100% - 130px); }
+  .hero-eyebrow { max-width: calc(100% - 130px); }
   .btn-hero { font-size: 12.5px; padding: 16px 24px; gap: 8px; white-space: nowrap; }
   .hero-right {
     display: block;
@@ -1143,8 +1143,8 @@ ul { list-style:none; }
   .hc-item { display: block; font-size: 9px; line-height: 1.5; white-space: nowrap; }
   .hc-item::before { display: none; }
   .hc-sub { font-size: 8px; }
-  .hero-case-divider { margin:20px -130px 16px 0; }
-  .hero-cases { max-width:calc(100% + 130px); gap:8px; }
+  .hero-case-divider { margin:20px 0 16px; }
+  .hero-cases { max-width:100%; gap:8px; }
   .case-card { padding:14px 15px; gap:10px; }
   .case-result { font-size:17px; }
   .case-play { width:58px; height:38px; }
