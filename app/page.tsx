@@ -29,7 +29,7 @@ export default function HomePage() {
                   <span>내신 6등급</span>
                 </div>
                 <div className="case-result">
-                  <i className="fas fa-arrow-right"></i> 가천대 반도체 학과 합격
+                  <i className="fas fa-arrow-right"></i> 가천대 반도체학과 합격
                 </div>
               </div>
               <div className="case-video">
