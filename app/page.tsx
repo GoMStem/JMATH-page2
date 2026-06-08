@@ -17,28 +17,39 @@ export default function HomePage() {
             내 성적으로 가능성 보기 <i className="fas fa-arrow-right"></i>
           </a>
 
-          <div className="hero-badges">
-            <div className="badge">
-              <div className="badge-icon"><i className="fas fa-crown"></i></div>
-              <div className="badge-body">
-                <span className="badge-lbl">김과외 수학</span>
-                <span className="badge-val">랭킹 1위</span>
-                <span className="badge-date">2026년 5월 기준</span>
+          <div className="hero-cases">
+            <div className="case-card">
+              <div className="case-left">
+                <span className="case-label">가천대 합격 사례</span>
+                <div className="case-grades">
+                  <span>수능수학 5등급</span>
+                  <span>국어 6등급</span>
+                  <span>내신 6등급</span>
+                </div>
+                <div className="case-result">
+                  <i className="fas fa-arrow-right"></i> 가천대 반도체 합격
+                </div>
+              </div>
+              <div className="case-video">
+                <div className="case-play"><i className="fas fa-play"></i></div>
+                <div className="case-video-label">2주 만에 가천대 합격 인터뷰</div>
               </div>
             </div>
-            <div className="badge">
-              <div className="badge-icon"><i className="fas fa-users"></i></div>
-              <div className="badge-body">
-                <span className="badge-lbl">누적 수강생</span>
-                <span className="badge-val">5,000명+</span>
-                <span className="badge-date">2026년 5월 기준</span>
+            <div className="case-card">
+              <div className="case-left">
+                <span className="case-label">서경대 합격 사례</span>
+                <div className="case-grades">
+                  <span>수능수학 4등급</span>
+                  <span>국어 5등급</span>
+                  <span>내신 8등급</span>
+                </div>
+                <div className="case-result">
+                  <i className="fas fa-arrow-right"></i> 서경대 미래융합학부 합격
+                </div>
               </div>
-            </div>
-            <div className="badge">
-              <div className="badge-icon"><i className="fas fa-won-sign"></i></div>
-              <div className="badge-body">
-                <span className="badge-lbl">프리미엄 1:1 관리</span>
-                <span className="badge-val">월 39만원</span>
+              <div className="case-video">
+                <div className="case-play"><i className="fas fa-play"></i></div>
+                <div className="case-video-label">서경대 합격생 인터뷰</div>
               </div>
             </div>
           </div>
