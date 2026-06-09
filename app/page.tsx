@@ -143,31 +143,42 @@ export default function HomePage() {
           <div className="essay-block reveal-left">
             <div className="eb-left">
               <div className="eb-num">03</div>
-              <div className="eb-title">어떤 학생에게<br />유리한가</div>
-              <div className="eb-subtitle">Who benefits</div>
+              <div className="eb-title">긴 설명보다<br />먼저 볼 것</div>
+              <div className="eb-subtitle">Check first</div>
             </div>
             <div className="eb-right">
-              <p className="eb-desc">모든 학생에게 열려 있지만, 특히 이런 학생들에게 약술형 논술은 최고의 카드입니다.</p>
-              <div className="eb-profiles">
-                <div className="eb-profile">
-                  <div className="eb-profile-dot"></div>
-                  <strong>내신은 아쉽지만 수학 실력은 탄탄한 학생</strong>
-                  <span>내신 불리 극복 가능</span>
+              <div className="eb-checklist">
+                <div className="eb-check-item">
+                  <div className="eb-check-step">STEP 01</div>
+                  <div className="eb-check-body">
+                    <div className="eb-check-ttl">내 등급</div>
+                    <div className="eb-check-dsc">내신 · 모의고사 · 수능 등급 확인</div>
+                  </div>
+                  <div className="eb-check-arrow"><i className="fas fa-chevron-right"></i></div>
                 </div>
-                <div className="eb-profile">
-                  <div className="eb-profile-dot"></div>
-                  <strong>수능 최저 등급 충족이 가능한 학생</strong>
-                  <span>실질 경쟁률 급감</span>
+                <div className="eb-check-item">
+                  <div className="eb-check-step">STEP 02</div>
+                  <div className="eb-check-body">
+                    <div className="eb-check-ttl">가능 대학</div>
+                    <div className="eb-check-dsc">지금 노려볼 수 있는 대학 확인</div>
+                  </div>
+                  <div className="eb-check-arrow"><i className="fas fa-chevron-right"></i></div>
                 </div>
-                <div className="eb-profile">
-                  <div className="eb-profile-dot"></div>
-                  <strong>개념 이해와 논리적 서술에 강한 학생</strong>
-                  <span>핵심 역량 직결</span>
+                <div className="eb-check-item">
+                  <div className="eb-check-step">STEP 03</div>
+                  <div className="eb-check-body">
+                    <div className="eb-check-ttl">합격 루트</div>
+                    <div className="eb-check-dsc">약술형 논술이 맞는지 판단</div>
+                  </div>
+                  <div className="eb-check-arrow"><i className="fas fa-chevron-right"></i></div>
                 </div>
-                <div className="eb-profile">
-                  <div className="eb-profile-dot"></div>
-                  <strong>목표 대학의 정시 컷이 부담스러운 학생</strong>
-                  <span>수시 합격 루트 확보</span>
+                <div className="eb-check-item eb-check-item-last">
+                  <div className="eb-check-step">STEP 04</div>
+                  <div className="eb-check-body">
+                    <div className="eb-check-ttl">바로 시작</div>
+                    <div className="eb-check-dsc">가능하면 늦기 전에 시작</div>
+                  </div>
+                  <div className="eb-check-arrow eb-check-arrow-gold"><i className="fas fa-arrow-right"></i></div>
                 </div>
               </div>
             </div>
