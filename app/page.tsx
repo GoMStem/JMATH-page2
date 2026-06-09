@@ -181,7 +181,7 @@ export default function HomePage() {
 
           <div className="contact-head reveal">
             <div className="contact-kicker">상담 신청</div>
-            <h2 className="contact-title">지금 바로<br /><em>무료 상담</em>을 시작하세요</h2>
+            <h2 className="contact-title">성적표만 보고<br /><em>포기하지 마세요</em></h2>
             <p className="contact-desc">편한 방법으로 연락주세요. 빠르게 안내드립니다.</p>
           </div>
 
@@ -220,35 +220,14 @@ export default function HomePage() {
             </div>
 
             <div className="contact-form-box reveal-right">
-              <div className="cfb-title">간편 상담 신청</div>
-              <p className="cfb-sub">남겨주시면 직접 연락드립니다.</p>
-              <div className="cf-row">
-                <div className="cf">
-                  <label>학생 이름</label>
-                  <input type="text" placeholder="이름" />
-                </div>
-                <div className="cf">
-                  <label>학년</label>
-                  <select defaultValue="">
-                    <option value="">선택</option>
-                    <option>고1</option>
-                    <option>고2</option>
-                    <option>고3</option>
-                    <option>재수생</option>
-                    <option>중3</option>
-                  </select>
-                </div>
-              </div>
-              <div className="cf">
-                <label>연락처</label>
-                <input type="tel" placeholder="010-0000-0000" />
-              </div>
-              <div className="cf">
-                <label>문의 내용 (선택)</label>
-                <textarea placeholder="궁금한 점이나 현재 상황을 간단히 적어주세요."></textarea>
-              </div>
-              <button className="btn-submit">무료 상담 신청하기 &nbsp;›</button>
-              <p className="cf-privacy">개인정보는 상담 목적 외에 사용되지 않습니다.</p>
+              <div className="cfb-title">내 성적으로 가능한 대학 진단</div>
+              <ul className="cfb-checklist">
+                <li>내 등급으로 가능한지</li>
+                <li>지금 시작해도 되는지</li>
+                <li>약술형 논술이 맞는지</li>
+                <li>어디까지 노려볼 수 있는지</li>
+              </ul>
+              <a href="#" className="btn-submit cfb-btn">무료 진단 신청하기 &nbsp;›</a>
             </div>
 
             <div className="contact-insta-wrap">

@@ -531,8 +531,12 @@ ul { list-style:none; }
   padding:36px 32px;
   box-shadow:0 0 0 1px rgba(255,255,255,.04) inset;
 }
-.cfb-title { font-size:18px; font-weight:900; color:#fff; margin-bottom:4px; letter-spacing:-.4px; }
+.cfb-title { font-size:18px; font-weight:900; color:#fff; margin-bottom:20px; letter-spacing:-.4px; }
 .cfb-sub { font-size:13px; color:rgba(255,255,255,.38); margin-bottom:24px; }
+.cfb-checklist { list-style:none; margin:0 0 28px; padding:0; display:flex; flex-direction:column; gap:12px; }
+.cfb-checklist li { font-size:14.5px; color:rgba(255,255,255,.82); display:flex; align-items:center; gap:10px; }
+.cfb-checklist li::before { content:''; width:18px; height:18px; flex-shrink:0; border-radius:50%; background:rgba(201,162,58,.15); border:1.5px solid var(--gold); display:flex; align-items:center; justify-content:center; background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M2 6l3 3 5-5' stroke='%23C9A23A' stroke-width='1.8' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); background-repeat:no-repeat; background-position:center; background-size:10px; }
+.cfb-btn { display:block; text-align:center; text-decoration:none; }
 .cf { margin-bottom:13px; }
 .cf label { display:block; font-size:12px; font-weight:600; color:rgba(255,255,255,.45); margin-bottom:6px; letter-spacing:.2px; }
 .cf input, .cf select, .cf textarea {
