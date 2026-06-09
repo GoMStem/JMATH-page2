@@ -320,7 +320,7 @@ ul { list-style:none; }
   gap:0; border-top:1px solid var(--border); padding:64px 0; align-items:start;
 }
 .essay-block:first-child { border-top:none; }
-.essay-block:last-child { border-bottom:1px solid var(--border); }
+.essay-block:last-child { border-bottom:none; }
 .essay-block.reverse { grid-template-columns:1.5fr 1fr; }
 .essay-block.reverse .eb-left { order:2; }
 .essay-block.reverse .eb-right { order:1; }
