@@ -222,7 +222,7 @@ ul { list-style:none; }
 
 /* ── HERO RIGHT ── */
 .hero-right {
-  flex:0 0 380px;
+  flex:0 0 340px;
   position:relative;
   align-self:stretch;
   z-index:2;
