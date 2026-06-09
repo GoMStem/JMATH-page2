@@ -154,7 +154,6 @@ export default function HomePage() {
                     <div className="eb-check-ttl">내 등급</div>
                     <div className="eb-check-dsc">내신 · 모의고사 · 수능 등급 확인</div>
                   </div>
-                  <div className="eb-check-arrow"><i className="fas fa-chevron-right"></i></div>
                 </div>
                 <div className="eb-check-item">
                   <div className="eb-check-step">STEP 02</div>
@@ -162,7 +161,6 @@ export default function HomePage() {
                     <div className="eb-check-ttl">가능 대학</div>
                     <div className="eb-check-dsc">지금 노려볼 수 있는 대학 확인</div>
                   </div>
-                  <div className="eb-check-arrow"><i className="fas fa-chevron-right"></i></div>
                 </div>
                 <div className="eb-check-item">
                   <div className="eb-check-step">STEP 03</div>
@@ -170,7 +168,6 @@ export default function HomePage() {
                     <div className="eb-check-ttl">합격 루트</div>
                     <div className="eb-check-dsc">약술형 논술이 맞는지 판단</div>
                   </div>
-                  <div className="eb-check-arrow"><i className="fas fa-chevron-right"></i></div>
                 </div>
                 <div className="eb-check-item eb-check-item-last">
                   <div className="eb-check-step">STEP 04</div>
@@ -178,7 +175,6 @@ export default function HomePage() {
                     <div className="eb-check-ttl">바로 시작</div>
                     <div className="eb-check-dsc">가능하면 늦기 전에 시작</div>
                   </div>
-                  <div className="eb-check-arrow eb-check-arrow-gold"><i className="fas fa-arrow-right"></i></div>
                 </div>
               </div>
             </div>
