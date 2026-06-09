@@ -127,11 +127,13 @@ export default function HomePage() {
                   <div className="eb-point-text">
                     <strong>성적표만 보고 끝났다고 생각한 학생</strong>
                   </div>
+                  <span className="eb-point-tag">가능성 확인</span>
                 </div>
                 <div className="eb-point eb-point-text-only">
                   <div className="eb-point-text">
                     <strong>정시만 바라보기 불안한 학생</strong>
                   </div>
+                  <span className="eb-point-tag">다른 길 확인</span>
                 </div>
               </div>
             </div>

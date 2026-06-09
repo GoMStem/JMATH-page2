@@ -354,8 +354,9 @@ ul { list-style:none; }
 .eb-point-icon i { font-size:13px; color:var(--gold); }
 .eb-point-text strong { display:block; font-size:13.5px; font-weight:700; color:var(--navy); margin-bottom:3px; }
 .eb-point-text span { font-size:12.5px; color:var(--text-sub); line-height:1.6; }
-.eb-point-text-only { align-items:center; }
+.eb-point-text-only { align-items:center; justify-content:space-between; }
 .eb-point-text-only .eb-point-text strong { font-size:15px; font-weight:800; margin-bottom:0; }
+.eb-point-tag { font-size:11.5px; font-weight:600; color:var(--text-sub); white-space:nowrap; flex-shrink:0; margin-left:12px; }
 
 .eb-stats { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-bottom:28px; }
 .eb-stat {
