@@ -1105,7 +1105,7 @@ ul { list-style:none; }
   .ch-info-item { font-size:11px; }
   .btn-kakao, .btn-phone { font-size:12px; padding:11px 8px; gap:6px; }
   .btn-kakao i, .btn-phone i { font-size:14px; }
-  .contact-form-box { grid-row:auto; order:1; grid-column:1/-1; }
+  .contact-form-box { grid-row:auto; order:1; grid-column:1/-1; margin-bottom:16px; }
   .contact-channel.reveal-left { order:2; }
   .contact-channel.reveal-fade { order:3; }
   .contact-insta-wrap { grid-column:1/-1; order:4; padding:0; margin-bottom:20px; text-align:center; }
