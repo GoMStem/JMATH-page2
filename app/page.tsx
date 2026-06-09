@@ -147,68 +147,26 @@ export default function HomePage() {
               <div className="eb-subtitle">Check first</div>
             </div>
             <div className="eb-right">
-              <div className="eb-checklist">
-                <div className="eb-check-item">
-                  <div className="eb-check-step">STEP 01</div>
-                  <div className="eb-check-body">
-                    <div className="eb-check-ttl">내 등급</div>
-                    <div className="eb-check-dsc">내신 · 모의고사 · 수능 등급 확인</div>
-                  </div>
-                </div>
-                <div className="eb-check-item">
-                  <div className="eb-check-step">STEP 02</div>
-                  <div className="eb-check-body">
-                    <div className="eb-check-ttl">가능 대학</div>
-                    <div className="eb-check-dsc">지금 노려볼 수 있는 대학 확인</div>
-                  </div>
-                </div>
-                <div className="eb-check-item">
-                  <div className="eb-check-step">STEP 03</div>
-                  <div className="eb-check-body">
-                    <div className="eb-check-ttl">합격 루트</div>
-                    <div className="eb-check-dsc">약술형 논술이 맞는지 판단</div>
-                  </div>
-                </div>
-                <div className="eb-check-item eb-check-item-last">
-                  <div className="eb-check-step">STEP 04</div>
-                  <div className="eb-check-body">
-                    <div className="eb-check-ttl">바로 시작</div>
-                    <div className="eb-check-dsc">가능하면 늦기 전에 시작</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* 04 */}
-          <div id="strategy" className="essay-block reverse reveal-right">
-            <div className="eb-left">
-              <div className="eb-num">04</div>
-              <div className="eb-title">J-MATH<br />합격 전략</div>
-              <div className="eb-subtitle">Our strategy</div>
-            </div>
-            <div className="eb-right">
-              <p className="eb-desc">약술형 논술은 단순 문제풀이가 아닙니다. 개념의 구조를 정확히 이해하고 서술하는 훈련이 필요합니다.</p>
               <div className="eb-strategy">
                 <div className="eb-strat-card">
                   <div className="eb-strat-num">STEP 01</div>
-                  <div className="eb-strat-ttl">개념 구조화</div>
-                  <div className="eb-strat-dsc">단순 암기가 아닌, 개념 간 연결과 논리 흐름을 잡는 훈련</div>
+                  <div className="eb-strat-ttl">내 등급</div>
+                  <div className="eb-strat-dsc">내신 · 모의고사 · 수능 등급 확인</div>
                 </div>
                 <div className="eb-strat-card">
                   <div className="eb-strat-num">STEP 02</div>
-                  <div className="eb-strat-ttl">기출 패턴 분석</div>
-                  <div className="eb-strat-dsc">대학별 출제 경향을 분석해 핵심 유형을 집중 공략</div>
+                  <div className="eb-strat-ttl">가능 대학</div>
+                  <div className="eb-strat-dsc">지금 노려볼 수 있는 대학 확인</div>
                 </div>
                 <div className="eb-strat-card">
                   <div className="eb-strat-num">STEP 03</div>
-                  <div className="eb-strat-ttl">서술 표현 훈련</div>
-                  <div className="eb-strat-dsc">채점 기준에 맞는 논리적 서술 방식 반복 훈련</div>
+                  <div className="eb-strat-ttl">합격 루트</div>
+                  <div className="eb-strat-dsc">약술형 논술이 맞는지 판단</div>
                 </div>
                 <div className="eb-strat-card">
                   <div className="eb-strat-num">STEP 04</div>
-                  <div className="eb-strat-ttl">실전 모의 &amp; 첨삭</div>
-                  <div className="eb-strat-dsc">실제 시험과 동일한 조건의 모의 답안 작성 및 1:1 피드백</div>
+                  <div className="eb-strat-ttl">바로 시작</div>
+                  <div className="eb-strat-dsc">가능하면 늦기 전에 시작</div>
                 </div>
               </div>
             </div>
@@ -320,7 +278,6 @@ export default function HomePage() {
           </div>
           <ul className="f-nav">
             <li><a href="#essay">약술형 논술</a></li>
-            <li><a href="#strategy">합격 전략</a></li>
             <li><a href="#contact">상담 신청</a></li>
           </ul>
           <a href="#contact" className="btn-f">상담 신청</a>
