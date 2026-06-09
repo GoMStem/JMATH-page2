@@ -227,7 +227,7 @@ export default function HomePage() {
                 <li>약술형 논술이 맞는지</li>
                 <li>어디까지 노려볼 수 있는지</li>
               </ul>
-              <a href="#" className="btn-submit cfb-btn">무료 진단 신청하기 &nbsp;›</a>
+              <a href="#" className="btn-submit cfb-btn">약술형 논술 상담 신청 &nbsp;›</a>
             </div>
 
             <div className="contact-insta-wrap">
