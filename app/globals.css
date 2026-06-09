@@ -1089,7 +1089,7 @@ ul { list-style:none; }
   .essay-block.reverse .eb-right { order:0; padding-right:0; border-right:none; }
   .eb-left { padding-right:0; position:static; margin-bottom:28px; }
   .eb-right { padding-left:0; border-left:none; border-top:1px solid var(--border); padding-top:32px; }
-  .eb-strategy { grid-template-columns:1fr; }
+  .eb-strategy { grid-template-columns:1fr 1fr; }
   .contact-grid { grid-template-columns:1fr 1fr; gap:16px; }
   .contact-channel { padding:0; margin-bottom:0; }
   .ch-icon-wrap { width:44px; height:44px; margin-bottom:12px; }
@@ -1182,7 +1182,9 @@ ul { list-style:none; }
   .page-title { font-size: 52px; }
 }
 @media (max-width:600px) {
-  .eb-stats { grid-template-columns:1fr; }
+  .eb-stats { grid-template-columns:repeat(3,1fr); gap:10px; }
+  .eb-stat-val { font-size:22px; }
+  .eb-stat-val span { font-size:13px; }
   .sec-essay { padding:64px 5%; }
 }
 
