@@ -104,37 +104,33 @@ export default function HomePage() {
           <div className="essay-block reverse reveal-right">
             <div className="eb-left">
               <div className="eb-num">02</div>
-              <div className="eb-title">왜 지금<br />중요한가</div>
+              <div className="eb-title">왜 지금<br />확인해야 하나</div>
               <div className="eb-subtitle">Why now</div>
             </div>
             <div className="eb-right">
               <div className="eb-stats">
                 <div className="eb-stat">
-                  <div className="eb-stat-val">3<span>배+</span></div>
-                  <div className="eb-stat-lbl">최근 5년간<br />약술형 전형 확대</div>
+                  <div className="eb-stat-val">5<span>등급</span></div>
+                  <div className="eb-stat-lbl">수능 수학<br />가천대 합격</div>
                 </div>
                 <div className="eb-stat">
-                  <div className="eb-stat-val">70<span>%</span></div>
-                  <div className="eb-stat-lbl">수능 최저 충족<br />실질 경쟁률 감소</div>
+                  <div className="eb-stat-val">8<span>등급</span></div>
+                  <div className="eb-stat-lbl">내신<br />서경대 합격</div>
                 </div>
                 <div className="eb-stat">
-                  <div className="eb-stat-val">2<span>배</span></div>
-                  <div className="eb-stat-lbl">논술 전형<br />합격선 유리</div>
+                  <div className="eb-stat-val">2<span>주</span></div>
+                  <div className="eb-stat-lbl">단기 준비<br />합격 사례</div>
                 </div>
               </div>
               <div className="eb-points">
-                <div className="eb-point">
-                  <div className="eb-point-icon"><i className="fas fa-chart-line"></i></div>
+                <div className="eb-point eb-point-text-only">
                   <div className="eb-point-text">
-                    <strong>전형 규모 지속 확대</strong>
-                    <span>정시·교과 전형 축소 추세 속에서 논술 전형은 꾸준히 늘고 있습니다</span>
+                    <strong>성적표만 보고 끝났다고 생각한 학생</strong>
                   </div>
                 </div>
-                <div className="eb-point">
-                  <div className="eb-point-icon"><i className="fas fa-filter"></i></div>
+                <div className="eb-point eb-point-text-only">
                   <div className="eb-point-text">
-                    <strong>수능 최저 충족만으로 실질 경쟁 격감</strong>
-                    <span>응시자 중 최저를 통과하는 비율이 낮아, 실제 경쟁은 생각보다 훨씬 좁습니다</span>
+                    <strong>정시만 바라보기 불안한 학생</strong>
                   </div>
                 </div>
               </div>
