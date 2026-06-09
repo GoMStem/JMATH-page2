@@ -84,31 +84,16 @@ export default function HomePage() {
           <div className="essay-block reveal-left">
             <div className="eb-left">
               <div className="eb-num">01</div>
-              <div className="eb-title">약술형 논술이란?</div>
-              <div className="eb-subtitle">What is it</div>
+              <div className="eb-title">포기하지 마세요.<br />아직 길이 있습니다.</div>
+              <div className="eb-subtitle">Hope first</div>
             </div>
             <div className="eb-right">
-              <p className="eb-desc">약술형 논술은 수학·과학 개념을 바탕으로 짧고 명확하게 풀어내는 논술 전형입니다. 긴 서술보다 핵심 논리를 정확히 표현하는 능력이 핵심이며, 수학적 사고력이 뛰어난 학생에게 절대적으로 유리합니다.</p>
+              <p className="eb-desc">성적이 무너지면 학생은 공부를 놓기 쉽습니다. 의지가 없는 게 아니라, 될 수 있다는 희망을 못 봤기 때문입니다.</p>
               <div className="eb-points">
                 <div className="eb-point">
-                  <div className="eb-point-icon"><i className="fas fa-pen"></i></div>
+                  <div className="eb-point-icon"><i className="fas fa-heart"></i></div>
                   <div className="eb-point-text">
-                    <strong>수학 개념 기반 단답형 서술</strong>
-                    <span>공식 암기가 아닌, 개념 이해와 적용 능력을 평가합니다</span>
-                  </div>
-                </div>
-                <div className="eb-point">
-                  <div className="eb-point-icon"><i className="fas fa-university"></i></div>
-                  <div className="eb-point-text">
-                    <strong>주요 시행 대학</strong>
-                    <span>연세대·성균관대·한양대·이화여대·숙명여대 등 수도권 상위권 대학 다수</span>
-                  </div>
-                </div>
-                <div className="eb-point">
-                  <div className="eb-point-icon"><i className="fas fa-clock"></i></div>
-                  <div className="eb-point-text">
-                    <strong>시험 형태</strong>
-                    <span>보통 60~90분, 수학 문제 4~8문항을 논리적으로 서술</span>
+                    <strong>학부모님, 아이에게 먼저 희망을 주세요.<br />지금 등급으로도 인서울 가능성을 확인할 수 있습니다.</strong>
                   </div>
                 </div>
               </div>
