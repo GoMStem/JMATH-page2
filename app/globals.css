@@ -202,11 +202,11 @@ ul { list-style:none; }
 }
 .case-result i { color:rgba(255,255,255,.5); margin-right:7px; font-size:15px; }
 .case-video {
-  flex:0 0 96px;
+  flex:0 0 130px;
   display:flex; flex-direction:column; align-items:center; gap:8px;
 }
 .case-play {
-  width:72px; height:48px;
+  width:112px; height:72px;
   background:linear-gradient(135deg, var(--navy-mid), var(--navy-deep));
   border:1.5px solid rgba(201,162,58,.45);
   border-radius:var(--r-sm);
@@ -1185,9 +1185,9 @@ ul { list-style:none; }
   .hero-cases { max-width:100%; gap:8px; }
   .case-card { padding:14px 15px; gap:10px; }
   .case-result { font-size:17px; }
-  .case-play { width:58px; height:38px; }
+  .case-play { width:88px; height:58px; }
   .case-play i { font-size:13px; }
-  .case-video { flex:0 0 72px; }
+  .case-video { flex:0 0 100px; }
   .case-video-label { font-size:9px; }
   .footer-top { flex-direction: column; gap: 20px; }
   .btn-nav { display: none; }
