@@ -212,9 +212,15 @@ ul { list-style:none; }
   border-radius:var(--r-sm);
   display:flex; align-items:center; justify-content:center;
   cursor:pointer; transition:all .2s;
+  position:relative; overflow:hidden;
 }
-.case-play i { color:var(--gold-light); font-size:16px; margin-left:3px; }
+.case-play i { color:var(--gold-light); font-size:16px; margin-left:3px; position:relative; z-index:1; }
 .case-play:hover { border-color:var(--gold); background:rgba(201,162,58,.15); }
+.case-play-thumb { background-size:cover; background-position:center; border-color:rgba(201,162,58,.7); }
+.case-play-thumb::before { content:''; position:absolute; inset:0; background:rgba(0,0,0,.4); border-radius:inherit; }
+.case-play-thumb i { color:#fff; text-shadow:0 1px 4px rgba(0,0,0,.7); }
+.case-play-thumb:hover::before { background:rgba(0,0,0,.25); }
+.case-video { text-decoration:none; }
 .case-video-label {
   font-size:10px; color:rgba(255,255,255,.35);
   text-align:center; line-height:1.4;

@@ -32,10 +32,18 @@ export default function HomePage() {
                   <i className="fas fa-arrow-right"></i> 가천대 반도체학과 합격
                 </div>
               </div>
-              <div className="case-video">
-                <div className="case-play"><i className="fas fa-play"></i></div>
+              <a
+                href="https://www.youtube.com/watch?v=N7tjkizK2NA"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="case-video"
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <div className="case-play case-play-thumb" style={{backgroundImage:"url('https://img.youtube.com/vi/N7tjkizK2NA/hqdefault.jpg')"}}>
+                  <i className="fas fa-play"></i>
+                </div>
                 <div className="case-video-label">2주 만에 가천대 합격 인터뷰</div>
-              </div>
+              </a>
             </div>
             <div className="case-card">
               <div className="case-left">
