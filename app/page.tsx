@@ -36,13 +36,14 @@ export default function HomePage() {
                 href="https://www.youtube.com/watch?v=N7tjkizK2NA"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="case-video"
+                className="case-video-full"
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <div className="case-play case-play-thumb" style={{backgroundImage:"url('https://img.youtube.com/vi/N7tjkizK2NA/hqdefault.jpg')"}}>
-                  <i className="fas fa-play"></i>
+                <img src="https://img.youtube.com/vi/N7tjkizK2NA/hqdefault.jpg" alt="가천대 합격생 인터뷰" />
+                <div className="case-video-overlay">
+                  <div className="case-play-circle"><i className="fas fa-play"></i></div>
+                  <span className="case-video-label">2주 만에 가천대 합격 인터뷰</span>
                 </div>
-                <div className="case-video-label">2주 만에 가천대 합격 인터뷰</div>
               </a>
             </div>
             <div className="case-card">
@@ -57,9 +58,11 @@ export default function HomePage() {
                   <i className="fas fa-arrow-right"></i> 서경대 미래융합학부 합격
                 </div>
               </div>
-              <div className="case-video">
-                <div className="case-play"><i className="fas fa-play"></i></div>
-                <div className="case-video-label">서경대 합격생 인터뷰</div>
+              <div className="case-video-full case-video-pending">
+                <div className="case-video-overlay">
+                  <div className="case-play-circle"><i className="fas fa-play"></i></div>
+                  <span className="case-video-label">서경대 합격생 인터뷰</span>
+                </div>
               </div>
             </div>
           </div>
