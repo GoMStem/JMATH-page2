@@ -1238,13 +1238,14 @@ ul { list-style:none; }
   .btn-kakao i, .btn-phone i { font-size:14px; }
   .contact-form-box { grid-row:auto; order:1; grid-column:1/-1; margin-bottom:16px; }
   .contact-channel.reveal-left { order:2; }
-  .contact-social { order:3; padding:0; grid-column:1/-1; }
-  .social-btns { margin-top:16px; flex-direction:row; gap:8px; }
-  .btn-social { flex:1; flex-direction:column; align-items:center; text-align:center; padding:12px 8px; gap:8px; }
+  .contact-social { order:3; padding:0; grid-column:auto; }
+  .social-btns { margin-top:0; flex-direction:column; gap:7px; }
+  .btn-social { flex-direction:row; align-items:center; text-align:left; padding:10px 12px; gap:10px; }
   .btn-social-sub { display:none; }
   .btn-social-arrow { display:none; }
-  .btn-social-icon { width:40px; height:40px; }
-  .btn-social-name { font-size:12px; }
+  .btn-social-icon { width:34px; height:34px; border-radius:8px; flex-shrink:0; }
+  .btn-social-icon i { font-size:16px; }
+  .btn-social-name { font-size:12.5px; }
 }
 @media (max-width:820px) {
   .nav-links { display:none; }
