@@ -219,21 +219,6 @@ export default function HomePage() {
               </button>
             </div>
 
-            <div className="contact-channel reveal-fade">
-              <div className="ch-icon-wrap phone">
-                <i className="fas fa-phone"></i>
-              </div>
-              <div className="ch-label">전화 문의</div>
-              <div className="ch-title">전화 상담</div>
-              <p className="ch-desc">직접 통화로 궁금한 점을<br />바로 해결하세요.</p>
-              <div className="ch-info">
-                <div className="ch-info-item"><i className="fas fa-clock"></i> 평일 오전 10시 – 오후 9시</div>
-                <div className="ch-info-item"><i className="fas fa-phone"></i> 010-0000-0000</div>
-              </div>
-              <button className="btn-phone">
-                <i className="fas fa-phone"></i> 전화로 문의하기
-              </button>
-            </div>
 
             <div className="contact-form-box reveal-right">
               <div className="cfb-title">내 성적으로 가능한 대학 진단</div>
