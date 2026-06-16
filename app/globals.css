@@ -224,12 +224,17 @@ ul { list-style:none; }
   color:#fff; letter-spacing:-.5px; line-height:1.3;
 }
 .case-result i { color:rgba(255,255,255,.5); margin-right:7px; font-size:15px; }
+@keyframes yt-pulse {
+  0%   { box-shadow:0 0 0 1.5px rgba(201,162,58,.6), 0 0 0 0 rgba(255,0,0,.55), 0 8px 24px rgba(0,0,0,.5); }
+  70%  { box-shadow:0 0 0 1.5px rgba(201,162,58,.6), 0 0 0 10px rgba(255,0,0,0), 0 8px 24px rgba(0,0,0,.5); }
+  100% { box-shadow:0 0 0 1.5px rgba(201,162,58,.6), 0 0 0 0   rgba(255,0,0,0), 0 8px 24px rgba(0,0,0,.5); }
+}
 .case-video {
-  flex:0 0 140px;
+  flex:0 0 168px;
   display:flex; flex-direction:column; align-items:center; gap:8px;
 }
 .case-play {
-  width:126px; height:80px;
+  width:152px; height:96px;
   background:linear-gradient(135deg, var(--navy-mid), var(--navy-deep));
   border:1.5px solid rgba(201,162,58,.45);
   border-radius:var(--r-sm);
@@ -241,35 +246,35 @@ ul { list-style:none; }
 .case-play:hover { border-color:var(--gold); background:rgba(201,162,58,.15); }
 .case-play-thumb {
   background-size:cover; background-position:center;
-  border-color:rgba(255,255,255,.2);
-  box-shadow:0 0 0 1.5px rgba(201,162,58,.5), 0 6px 20px rgba(0,0,0,.45);
+  border-color:rgba(255,255,255,.15);
+  animation:yt-pulse 2.4s ease-out infinite;
 }
 .case-play-thumb::before {
   content:''; position:absolute; inset:0;
-  background:linear-gradient(to top, rgba(0,0,0,.55) 0%, rgba(0,0,0,.1) 60%);
+  background:linear-gradient(to top, rgba(0,0,0,.6) 0%, rgba(0,0,0,.08) 55%);
   border-radius:inherit;
   transition:opacity .2s;
 }
 .case-play-thumb::after {
   content:'';
   position:absolute;
-  width:36px; height:26px;
+  width:44px; height:30px;
   background:#FF0000;
-  border-radius:6px;
+  border-radius:7px;
   z-index:1;
   transition:transform .2s, background .2s;
+  box-shadow:0 2px 10px rgba(255,0,0,.5);
 }
 .case-play-thumb i {
   position:relative; z-index:2;
-  color:#fff; font-size:13px; margin-left:2px;
-  text-shadow:none;
+  color:#fff; font-size:14px; margin-left:3px;
 }
-.case-play-thumb:hover::after { background:#cc0000; transform:scale(1.08); }
-.case-play-thumb:hover::before { opacity:.7; }
+.case-play-thumb:hover::after { background:#cc0000; transform:scale(1.1); }
+.case-play-thumb:hover::before { opacity:.6; }
 .case-video { text-decoration:none; }
 .case-video-label {
-  font-size:10.5px; font-weight:600; color:rgba(255,255,255,.6);
-  text-align:center; line-height:1.4;
+  font-size:11px; font-weight:700; color:rgba(255,255,255,.7);
+  text-align:center; line-height:1.4; letter-spacing:.1px;
 }
 
 /* ── HERO RIGHT ── */
@@ -1309,10 +1314,10 @@ ul { list-style:none; }
   .hero-cases { max-width:100%; gap:8px; }
   .case-card { padding:14px 15px; gap:10px; }
   .case-result { font-size:17px; }
-  .case-play { width:96px; height:62px; }
-  .case-play i { font-size:11px; }
-  .case-play-thumb::after { width:28px; height:20px; border-radius:5px; }
-  .case-video { flex:0 0 108px; }
+  .case-play { width:110px; height:70px; }
+  .case-play i { font-size:12px; }
+  .case-play-thumb::after { width:34px; height:23px; border-radius:6px; }
+  .case-video { flex:0 0 122px; }
   .case-video-label { font-size:9.5px; }
   .footer-top { flex-direction: column; gap: 20px; }
   .btn-nav { display: none; }
