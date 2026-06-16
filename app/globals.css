@@ -186,15 +186,33 @@ ul { list-style:none; }
   padding:2px 9px; border-radius:20px;
   margin-bottom:10px;
 }
+.case-headline {
+  font-size:17px; font-weight:900; letter-spacing:-.4px;
+  color:var(--gold-light);
+  margin-bottom:10px; margin-top:2px;
+  text-shadow:0 0 18px rgba(230,198,106,.35);
+}
 .case-grades {
   display:flex; flex-wrap:wrap; gap:6px;
   margin-bottom:10px;
 }
 .case-grades span {
-  font-size:12px; font-weight:600;
+  font-size:12px; font-weight:700;
   color:rgba(255,255,255,.55);
   background:rgba(255,255,255,.07);
   padding:3px 9px; border-radius:4px;
+}
+.case-grades .cg-red {
+  color:#ff6b6b; background:rgba(255,80,80,.12);
+  border:1px solid rgba(255,80,80,.3);
+}
+.case-grades .cg-blue {
+  color:#74b9ff; background:rgba(74,144,255,.12);
+  border:1px solid rgba(74,144,255,.3);
+}
+.case-grades .cg-gold {
+  color:var(--gold-light); background:rgba(201,162,58,.12);
+  border:1px solid rgba(201,162,58,.3);
 }
 .case-result {
   font-size:21px; font-weight:900;
