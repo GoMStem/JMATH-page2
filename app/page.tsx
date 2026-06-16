@@ -26,7 +26,7 @@ export default function HomePage() {
                 <div className="case-grades">
                   <span className="cg-red">수능수학 5등급!</span>
                   <span className="cg-blue">국어 6등급!</span>
-                  <span className="cg-white">내신 6등급</span>
+                  <span className="cg-white">내신 6등급!</span>
                 </div>
                 <div className="case-result">
                   <i className="fas fa-arrow-right"></i> 2주만에 가천대 합격!
@@ -51,10 +51,10 @@ export default function HomePage() {
                 <div className="case-grades">
                   <span className="cg-red">수능수학 4등급!</span>
                   <span className="cg-blue">국어 5등급!</span>
-                  <span className="cg-white">내신 8등급</span>
+                  <span className="cg-white">내신 8등급!</span>
                 </div>
                 <div className="case-result">
-                  <i className="fas fa-arrow-right"></i> 서경대 미래융합학부 합격
+                  <i className="fas fa-arrow-right"></i> 서경대 미래융합학부 합격!
                 </div>
               </div>
               <a
