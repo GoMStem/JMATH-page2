@@ -23,14 +23,13 @@ export default function HomePage() {
             <div className="case-card">
               <div className="case-left">
                 <span className="case-label">가천대 합격 사례</span>
-                <div className="case-headline">2주만에 가천대 합격!</div>
                 <div className="case-grades">
                   <span className="cg-red">수능수학 5등급!</span>
                   <span className="cg-blue">국어 6등급!</span>
                   <span className="cg-white">내신 6등급</span>
                 </div>
                 <div className="case-result">
-                  <i className="fas fa-arrow-right"></i> 2주만에 가천대 반도체학과 합격!
+                  <i className="fas fa-arrow-right"></i> 2주만에 가천대 합격!
                 </div>
               </div>
               <a
