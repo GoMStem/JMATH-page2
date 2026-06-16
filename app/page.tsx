@@ -92,6 +92,40 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* 소셜 배너 */}
+      <section className="sec-social-banner">
+        <div className="social-banner-inner">
+          <a href="https://www.instagram.com/yonsei_hossam/" target="_blank" rel="noopener noreferrer" className="sb-card sb-insta">
+            <div className="sb-icon"><i className="fab fa-instagram"></i></div>
+            <div className="sb-text">
+              <div className="sb-name">인스타그램</div>
+              <div className="sb-handle">@yonsei_hossam</div>
+            </div>
+          </a>
+          <a href="https://www.youtube.com/@H_Math-f4k" target="_blank" rel="noopener noreferrer" className="sb-card sb-yt">
+            <div className="sb-icon"><i className="fab fa-youtube"></i></div>
+            <div className="sb-text">
+              <div className="sb-name">유튜브</div>
+              <div className="sb-handle">합격 인터뷰 보기</div>
+            </div>
+          </a>
+          <a href="https://blog.naver.com/hyeonjeongho" target="_blank" rel="noopener noreferrer" className="sb-card sb-blog">
+            <div className="sb-icon"><span className="sb-blog-n">N</span></div>
+            <div className="sb-text">
+              <div className="sb-name">네이버 블로그</div>
+              <div className="sb-handle">수업 후기 보기</div>
+            </div>
+          </a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScn-jtlFDesu11b2il9gEqP6aO3MxPQegIWjfoGQXWzvjCD_Q/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="sb-card sb-kakao">
+            <div className="sb-icon"><i className="fas fa-comment"></i></div>
+            <div className="sb-text">
+              <div className="sb-name">카카오톡 상담</div>
+              <div className="sb-handle">무료 상담 신청</div>
+            </div>
+          </a>
+        </div>
+      </section>
+
       {/* 약술형 논술 */}
       <section id="essay" className="sec-essay">
         <div className="essay-blocks">
