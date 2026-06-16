@@ -231,7 +231,7 @@ export default function HomePage() {
                   </div>
                   <i className="fas fa-chevron-right btn-social-arrow"></i>
                 </a>
-                <a href="#" target="_blank" rel="noopener noreferrer" className="btn-social btn-social-yt">
+                <a href="https://www.youtube.com/@H_Math-f4k" target="_blank" rel="noopener noreferrer" className="btn-social btn-social-yt">
                   <div className="btn-social-icon"><i className="fab fa-youtube"></i></div>
                   <div className="btn-social-info">
                     <div className="btn-social-name">유튜브</div>
@@ -239,7 +239,7 @@ export default function HomePage() {
                   </div>
                   <i className="fas fa-chevron-right btn-social-arrow"></i>
                 </a>
-                <a href="#" target="_blank" rel="noopener noreferrer" className="btn-social btn-social-blog">
+                <a href="https://blog.naver.com/hyeonjeongho" target="_blank" rel="noopener noreferrer" className="btn-social btn-social-blog">
                   <div className="btn-social-icon"><span className="blog-n">N</span></div>
                   <div className="btn-social-info">
                     <div className="btn-social-name">네이버 블로그</div>
