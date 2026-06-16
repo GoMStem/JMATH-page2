@@ -214,6 +214,11 @@ ul { list-style:none; }
   color:var(--gold-light); background:rgba(201,162,58,.12);
   border:1px solid rgba(201,162,58,.3);
 }
+.case-grades .cg-white {
+  color:rgba(255,255,255,.75);
+  background:rgba(255,255,255,.07);
+  border:1px solid rgba(255,255,255,.25);
+}
 .case-result {
   font-size:21px; font-weight:900;
   color:#fff; letter-spacing:-.5px; line-height:1.3;

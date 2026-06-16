@@ -23,14 +23,13 @@ export default function HomePage() {
             <div className="case-card">
               <div className="case-left">
                 <span className="case-label">가천대 합격 사례</span>
-                <div className="case-headline">2주만에 가천대 합격!</div>
                 <div className="case-grades">
                   <span className="cg-red">수능수학 5등급!</span>
                   <span className="cg-blue">국어 6등급!</span>
-                  <span className="cg-gold">내신 6등급!</span>
+                  <span className="cg-white">내신 6등급</span>
                 </div>
                 <div className="case-result">
-                  <i className="fas fa-arrow-right"></i> 가천대 반도체학과 합격
+                  <i className="fas fa-arrow-right"></i> 2주만에 가천대 반도체학과 합격!
                 </div>
               </div>
               <a
@@ -43,7 +42,7 @@ export default function HomePage() {
                 <div className="case-play case-play-thumb" style={{backgroundImage:"url('https://img.youtube.com/vi/N7tjkizK2NA/hqdefault.jpg')"}}>
                   <i className="fas fa-play"></i>
                 </div>
-                <div className="case-video-label">2주 만에 가천대 합격 인터뷰</div>
+                <div className="case-video-label">가천대 합격 인터뷰</div>
               </a>
             </div>
             <div className="case-card">
