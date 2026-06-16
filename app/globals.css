@@ -1334,10 +1334,10 @@ ul { list-style:none; }
   .sec-essay { padding:64px 5%; }
   .social-banner-inner { grid-template-columns:1fr 1fr; gap:8px; }
   .sb-card { padding:14px 12px; gap:10px; }
-  .sb-insta { background:rgba(131,58,180,.2); border-color:rgba(131,58,180,.45); }
-  .sb-yt    { background:rgba(255,0,0,.15);   border-color:rgba(255,0,0,.38); }
-  .sb-blog  { background:rgba(3,199,90,.14);  border-color:rgba(3,199,90,.38); }
-  .sb-kakao { background:rgba(254,229,0,.13); border-color:rgba(254,229,0,.4); }
+  .sb-insta { background:rgba(131,58,180,.17); border-color:rgba(131,58,180,.34); }
+  .sb-yt    { background:rgba(255,0,0,.12);   border-color:rgba(255,0,0,.26); }
+  .sb-blog  { background:rgba(3,199,90,.12);  border-color:rgba(3,199,90,.26); }
+  .sb-kakao { background:rgba(254,229,0,.12); border-color:rgba(254,229,0,.26); }
   .sb-icon { width:38px; height:38px; font-size:18px; border-radius:10px; }
   .sb-name { font-size:13px; }
   .sb-handle { font-size:10.5px; }
