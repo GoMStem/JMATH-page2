@@ -49,9 +49,9 @@ export default function HomePage() {
               <div className="case-left">
                 <span className="case-label">서경대 합격 사례</span>
                 <div className="case-grades">
-                  <span>수능수학 4등급</span>
-                  <span>국어 5등급</span>
-                  <span>내신 8등급</span>
+                  <span className="cg-red">수능수학 4등급!</span>
+                  <span className="cg-blue">국어 5등급!</span>
+                  <span className="cg-white">내신 8등급</span>
                 </div>
                 <div className="case-result">
                   <i className="fas fa-arrow-right"></i> 서경대 미래융합학부 합격
