@@ -219,6 +219,36 @@ export default function HomePage() {
               </button>
             </div>
 
+            <div className="contact-social reveal-fade">
+              <div className="ch-label">SNS</div>
+              <div className="ch-title">소셜 미디어</div>
+              <div className="social-btns">
+                <a href="https://www.instagram.com/yonsei_hossam/" target="_blank" rel="noopener noreferrer" className="btn-social btn-social-insta">
+                  <div className="btn-social-icon"><i className="fab fa-instagram"></i></div>
+                  <div className="btn-social-info">
+                    <div className="btn-social-name">인스타그램</div>
+                    <div className="btn-social-sub">@yonsei_hossam</div>
+                  </div>
+                  <i className="fas fa-chevron-right btn-social-arrow"></i>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" className="btn-social btn-social-yt">
+                  <div className="btn-social-icon"><i className="fab fa-youtube"></i></div>
+                  <div className="btn-social-info">
+                    <div className="btn-social-name">유튜브</div>
+                    <div className="btn-social-sub">채널 바로가기</div>
+                  </div>
+                  <i className="fas fa-chevron-right btn-social-arrow"></i>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" className="btn-social btn-social-blog">
+                  <div className="btn-social-icon"><span className="blog-n">N</span></div>
+                  <div className="btn-social-info">
+                    <div className="btn-social-name">네이버 블로그</div>
+                    <div className="btn-social-sub">블로그 바로가기</div>
+                  </div>
+                  <i className="fas fa-chevron-right btn-social-arrow"></i>
+                </a>
+              </div>
+            </div>
 
             <div className="contact-form-box reveal-right">
               <div className="cfb-title">내 성적으로 가능한 대학 진단</div>
@@ -231,19 +261,6 @@ export default function HomePage() {
               <a href="https://docs.google.com/forms/d/e/1FAIpQLScn-jtlFDesu11b2il9gEqP6aO3MxPQegIWjfoGQXWzvjCD_Q/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="btn-submit cfb-btn">약술형 논술 상담 신청 &nbsp;›</a>
             </div>
 
-            <div className="contact-insta-wrap">
-              <a
-                href="https://www.instagram.com/yonsei_hossam/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-insta"
-              >
-                <i className="fab fa-instagram"></i> 인스타그램 팔로우하기
-              </a>
-              <p style={{ fontSize: '11px', color: 'rgba(255,255,255,.25)', marginTop: '10px' }}>
-                @yonsei_hossam
-              </p>
-            </div>
 
           </div>
         </div>
