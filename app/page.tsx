@@ -116,7 +116,7 @@ export default function HomePage() {
               <div className="sb-handle">수업 후기 보기</div>
             </div>
           </a>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLScn-jtlFDesu11b2il9gEqP6aO3MxPQegIWjfoGQXWzvjCD_Q/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="sb-card sb-kakao">
+          <a href="https://open.kakao.com/o/sebtKowh" target="_blank" rel="noopener noreferrer" className="sb-card sb-kakao">
             <div className="sb-icon"><i className="fas fa-comment"></i></div>
             <div className="sb-text">
               <div className="sb-name">카카오톡 상담</div>
@@ -248,9 +248,9 @@ export default function HomePage() {
                 <div className="ch-info-item"><i className="fas fa-clock"></i> 평일 오전 10시 – 오후 10시</div>
                 <div className="ch-info-item"><i className="fas fa-bolt"></i> 보통 1시간 이내 응답</div>
               </div>
-              <button className="btn-kakao">
+              <a href="https://open.kakao.com/o/sebtKowh" target="_blank" rel="noopener noreferrer" className="btn-kakao">
                 <i className="fas fa-comment"></i> 카카오톡으로 문의하기
-              </button>
+              </a>
             </div>
 
             <div className="contact-social reveal-fade">
