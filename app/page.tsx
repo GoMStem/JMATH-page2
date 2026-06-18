@@ -308,10 +308,10 @@ export default function HomePage() {
             <div className="f-logo-sub">진단 · 맞춤 개념조합 · 피드백</div>
           </div>
           <ul className="f-nav">
+            <li><a href="#">Main</a></li>
             <li><a href="#essay">약술형 논술</a></li>
             <li><a href="#contact">상담 신청</a></li>
           </ul>
-          <a href="#contact" className="btn-f">상담 신청</a>
         </div>
         <div className="footer-info">
           <span>대표강사 현정호</span>
