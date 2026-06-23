@@ -3,9 +3,12 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getAllDailyPosts, getDailyPostBySlug } from '@/lib/daily-posts'
 
+export const dynamic = 'force-static'
+export const dynamicParams = true
+
 export async function generateStaticParams() {
   const posts = getAllDailyPosts()
-  return posts.map(post => ({ slug: encodeURIComponent(post.slug) }))
+  return posts.map(post => ({ slug: post.slug }))
 }
 
 export async function generateMetadata({
