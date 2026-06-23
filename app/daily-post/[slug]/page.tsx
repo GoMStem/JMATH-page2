@@ -5,7 +5,7 @@ import { getAllDailyPosts, getDailyPostBySlug } from '@/lib/daily-posts'
 
 export async function generateStaticParams() {
   const posts = getAllDailyPosts()
-  return posts.map(post => ({ slug: post.slug }))
+  return posts.map(post => ({ slug: encodeURIComponent(post.slug) }))
 }
 
 export async function generateMetadata({
@@ -14,7 +14,8 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>
 }): Promise<Metadata> {
   const { slug } = await params
-  const post = await getDailyPostBySlug(slug).catch(() => null)
+  const decoded = decodeURIComponent(slug)
+  const post = await getDailyPostBySlug(decoded).catch(() => null)
   if (!post) return { title: 'Daily Post — J-MATH' }
   return { title: `${post.title} — J-MATH` }
 }
@@ -25,7 +26,8 @@ export default async function DailyPostDetailPage({
   params: Promise<{ slug: string }>
 }) {
   const { slug } = await params
-  const post = await getDailyPostBySlug(slug).catch(() => null)
+  const decoded = decodeURIComponent(slug)
+  const post = await getDailyPostBySlug(decoded).catch(() => null)
   if (!post) notFound()
 
   return (
