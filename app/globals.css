@@ -585,7 +585,7 @@ ul { list-style:none; }
 .contact-desc { font-size:15px; color:rgba(255,255,255,.4); line-height:1.8; }
 .contact-grid {
   display:grid;
-  grid-template-columns:1fr 1fr 1.6fr;
+  grid-template-columns:1fr 1.6fr;
   gap:64px; align-items:start;
 }
 .contact-channel { padding:0 8px; }

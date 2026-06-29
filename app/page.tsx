@@ -109,7 +109,7 @@ export default function HomePage() {
               <div className="sb-handle">합격 인터뷰 보기</div>
             </div>
           </a>
-          <a href="https://blog.naver.com/hyeonjeongho" target="_blank" rel="noopener noreferrer" className="sb-card sb-blog">
+          <a href="https://blog.naver.com/hyeonjeongho/224000556699" target="_blank" rel="noopener noreferrer" className="sb-card sb-blog">
             <div className="sb-icon"><span className="sb-blog-n">N</span></div>
             <div className="sb-text">
               <div className="sb-name">네이버 블로그</div>
@@ -237,22 +237,6 @@ export default function HomePage() {
 
           <div className="contact-grid">
 
-            <div className="contact-channel reveal-left">
-              <div className="ch-icon-wrap kakao">
-                <i className="fas fa-comment"></i>
-              </div>
-              <div className="ch-label">간편 상담</div>
-              <div className="ch-title">카카오톡 상담</div>
-              <p className="ch-desc">채팅으로 편하게 문의하세요.<br />빠르게 답변드립니다.</p>
-              <div className="ch-info">
-                <div className="ch-info-item"><i className="fas fa-clock"></i> 평일 오전 10시 – 오후 10시</div>
-                <div className="ch-info-item"><i className="fas fa-bolt"></i> 보통 1시간 이내 응답</div>
-              </div>
-              <a href="https://open.kakao.com/o/sebtKowh" target="_blank" rel="noopener noreferrer" className="btn-kakao">
-                <i className="fas fa-comment"></i> 카카오톡으로 문의하기
-              </a>
-            </div>
-
             <div className="contact-social reveal-fade">
               <div className="ch-label">SNS</div>
               <div className="ch-title">소셜 미디어</div>
@@ -273,7 +257,7 @@ export default function HomePage() {
                   </div>
                   <i className="fas fa-chevron-right btn-social-arrow"></i>
                 </a>
-                <a href="https://blog.naver.com/hyeonjeongho" target="_blank" rel="noopener noreferrer" className="btn-social btn-social-blog">
+                <a href="https://blog.naver.com/hyeonjeongho/224000556699" target="_blank" rel="noopener noreferrer" className="btn-social btn-social-blog">
                   <div className="btn-social-icon"><span className="blog-n">N</span></div>
                   <div className="btn-social-info">
                     <div className="btn-social-name">네이버 블로그</div>
@@ -292,7 +276,7 @@ export default function HomePage() {
                 <li>약술형 논술이 맞는지</li>
                 <li>어디까지 노려볼 수 있는지</li>
               </ul>
-              <a href="https://forms.gle/v9txnHR7zwM1NcNTA" target="_blank" rel="noopener noreferrer" className="btn-submit cfb-btn">약술형 논술 상담 신청 &nbsp;›</a>
+              <a href="https://forms.gle/v9txnHR7zwM1NcNTA" target="_blank" rel="noopener noreferrer" className="btn-submit cfb-btn">상담신청하기 &nbsp;›</a>
             </div>
 
 
