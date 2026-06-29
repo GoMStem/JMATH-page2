@@ -116,8 +116,8 @@ export default function HomePage() {
               <div className="sb-handle">수업 후기 보기</div>
             </div>
           </a>
-          <a href="https://forms.gle/v9txnHR7zwM1NcNTA" target="_blank" rel="noopener noreferrer" className="sb-card sb-kakao">
-            <div className="sb-icon"><i className="fas fa-comment"></i></div>
+          <a href="https://forms.gle/v9txnHR7zwM1NcNTA" target="_blank" rel="noopener noreferrer" className="sb-card sb-form">
+            <div className="sb-icon"><i className="fas fa-clipboard-list"></i></div>
             <div className="sb-text">
               <div className="sb-name">상담 신청하기</div>
               <div className="sb-handle">무료 상담 신청</div>
