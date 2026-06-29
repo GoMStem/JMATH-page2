@@ -411,11 +411,11 @@ ul { list-style:none; }
 .sb-blog .sb-icon { background:#03C75A; }
 .sb-blog::after { background:#03C75A; }
 
-.sb-form { background:rgba(255,255,255,.06); border-color:rgba(255,255,255,.18); }
-.sb-form:hover { background:rgba(255,255,255,.12); border-color:rgba(255,255,255,.35); }
-.sb-form .sb-icon { background:#fff; }
+.sb-form { background:rgba(255,255,255,.05); border-color:rgba(255,255,255,.14); }
+.sb-form:hover { background:rgba(255,255,255,.1); border-color:rgba(255,255,255,.28); }
+.sb-form .sb-icon { background:#d8d8dc; }
 .sb-form .sb-icon i { color:var(--navy-deep); }
-.sb-form::after { background:#fff; }
+.sb-form::after { background:#d8d8dc; }
 
 /* ── ESSAY SECTION ── */
 .sec-essay { background:var(--white); padding:96px 7%; }
