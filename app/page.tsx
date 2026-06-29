@@ -13,7 +13,7 @@ export default function HomePage() {
             <span className="hero-h1-point">진짜 합격?</span><br />
             영상으로 보세요
           </h1>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLScn-jtlFDesu11b2il9gEqP6aO3MxPQegIWjfoGQXWzvjCD_Q/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="btn-hero">
+          <a href="https://forms.gle/v9txnHR7zwM1NcNTA" target="_blank" rel="noopener noreferrer" className="btn-hero">
             내 성적으로 가능성 보기 <i className="fas fa-arrow-right"></i>
           </a>
 
@@ -116,10 +116,10 @@ export default function HomePage() {
               <div className="sb-handle">수업 후기 보기</div>
             </div>
           </a>
-          <a href="https://open.kakao.com/o/sebtKowh" target="_blank" rel="noopener noreferrer" className="sb-card sb-kakao">
+          <a href="https://forms.gle/v9txnHR7zwM1NcNTA" target="_blank" rel="noopener noreferrer" className="sb-card sb-kakao">
             <div className="sb-icon"><i className="fas fa-comment"></i></div>
             <div className="sb-text">
-              <div className="sb-name">카카오톡 상담</div>
+              <div className="sb-name">상담 신청하기</div>
               <div className="sb-handle">무료 상담 신청</div>
             </div>
           </a>
@@ -292,7 +292,7 @@ export default function HomePage() {
                 <li>약술형 논술이 맞는지</li>
                 <li>어디까지 노려볼 수 있는지</li>
               </ul>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLScn-jtlFDesu11b2il9gEqP6aO3MxPQegIWjfoGQXWzvjCD_Q/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="btn-submit cfb-btn">약술형 논술 상담 신청 &nbsp;›</a>
+              <a href="https://forms.gle/v9txnHR7zwM1NcNTA" target="_blank" rel="noopener noreferrer" className="btn-submit cfb-btn">약술형 논술 상담 신청 &nbsp;›</a>
             </div>
 
 
