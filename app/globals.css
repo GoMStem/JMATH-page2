@@ -826,8 +826,10 @@ ul { list-style:none; }
   letter-spacing:.3px; line-height:1.8;
 }
 .post-list {
-  display:flex; flex-direction:column; gap:14px;
-  max-width:720px; margin:32px auto 0;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:14px;
+  max-width:960px; margin:32px auto 0;
   text-align:left;
 }
 .post-card {
@@ -1376,6 +1378,7 @@ ul { list-style:none; }
   .eb-stat-val { font-size:22px; }
   .eb-stat-val span { font-size:13px; }
   .sec-essay { padding:64px 5%; }
+  .post-list { grid-template-columns:1fr; }
   .social-banner-inner { grid-template-columns:1fr 1fr; gap:8px; }
   .sb-card { padding:14px 12px; gap:10px; }
   .sb-insta { background:rgba(131,58,180,.17); border-color:rgba(131,58,180,.34); }
