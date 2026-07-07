@@ -6,18 +6,31 @@ import html from 'remark-html'
 
 const postsDirectory = path.join(process.cwd(), 'content/daily')
 
-export function getAllDailyPosts() {
+function toSafeSlug(rawSlug: string): string {
+  return rawSlug
+    .replace(/[:?#&/\\%*<>|"'`+={}[\]!,;()@$^]/g, '-')
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '')
+}
+
+function readAllFileNames(): string[] {
   if (!fs.existsSync(postsDirectory)) return []
-  const fileNames = fs.readdirSync(postsDirectory).filter(f => f.endsWith('.md'))
+  return fs.readdirSync(postsDirectory).filter(f => f.endsWith('.md'))
+}
+
+export function getAllDailyPosts() {
+  const fileNames = readAllFileNames()
   if (fileNames.length === 0) return []
   const posts = fileNames.map(fileName => {
-    const slug = fileName.replace(/\.md$/, '')
+    const rawSlug = fileName.replace(/\.md$/, '')
+    const slug = toSafeSlug(rawSlug)
     const fullPath = path.join(postsDirectory, fileName)
     const fileContents = fs.readFileSync(fullPath, 'utf8')
     const { data } = matter(fileContents)
     return {
       slug,
-      title: (data.title as string) || slug,
+      title: (data.title as string) || rawSlug,
       date: (data.date as string) || '',
       description: (data.description as string) || '',
     }
@@ -26,16 +39,22 @@ export function getAllDailyPosts() {
 }
 
 export async function getDailyPostBySlug(slug: string) {
-  const fullPath = path.join(postsDirectory, `${slug}.md`)
-  const fileContents = fs.readFileSync(fullPath, 'utf8')
-  const { data, content } = matter(fileContents)
-  const processedContent = await remark().use(html).process(content)
-  const contentHtml = processedContent.toString()
-  return {
-    slug,
-    title: (data.title as string) || slug,
-    date: (data.date as string) || '',
-    description: (data.description as string) || '',
-    contentHtml,
+  const fileNames = readAllFileNames()
+  for (const fileName of fileNames) {
+    const rawSlug = fileName.replace(/\.md$/, '')
+    if (toSafeSlug(rawSlug) !== slug) continue
+    const fullPath = path.join(postsDirectory, fileName)
+    const fileContents = fs.readFileSync(fullPath, 'utf8')
+    const { data, content } = matter(fileContents)
+    const processedContent = await remark().use(html).process(content)
+    const contentHtml = processedContent.toString()
+    return {
+      slug,
+      title: (data.title as string) || rawSlug,
+      date: (data.date as string) || '',
+      description: (data.description as string) || '',
+      contentHtml,
+    }
   }
+  throw new Error(`Daily post not found: ${slug}`)
 }
