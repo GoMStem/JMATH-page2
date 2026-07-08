@@ -8,6 +8,11 @@ import ScrollTop from '@/components/ScrollTop'
 export const metadata: Metadata = {
   title: 'J-MATH — 프리미엄 수학 전략 코칭',
   description: '정확한 진단 · 맞춤 개념조합 · 실전 피드백',
+  verification: {
+    other: {
+      'naver-site-verification': 'ef0ea5c134e4a07eaa5b8514bae17ce22d19841d',
+    },
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
