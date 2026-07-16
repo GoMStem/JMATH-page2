@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B2D5C"/>
+      <stop offset="100%" stop-color="#061A36"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E6C66A"/>
+      <stop offset="100%" stop-color="#C9A23A"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" ry="96" fill="url(#bg)"/>
+  <rect x="14" y="14" width="484" height="484" rx="86" ry="86" fill="none" stroke="rgba(201,162,58,0.35)" stroke-width="4"/>
+  <text x="50%" y="52%"
+        text-anchor="middle" dominant-baseline="central"
+        font-family="'Noto Serif KR', Georgia, 'Times New Roman', serif"
+        font-size="380" font-weight="900"
+        fill="url(#gold)">J</text>
+</svg>
