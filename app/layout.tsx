@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: '정확한 진단 · 맞춤 개념조합 · 실전 피드백',
   verification: {
     other: {
-      'naver-site-verification': 'ef0ea5c134e4a07eaa5b8514bae17ce22d19841d',
+      'naver-site-verification': 'b6cddb7f3ad25de8295168aa0ed240d2de2ffd2b',
     },
   },
 }
